@@ -45,6 +45,16 @@ nav{
 .downloadBtn button:hover{
     cursor: pointer;
     background: #000000;
+    color: aqua;
+    transition: linear 0.2s;
+}
+
+main{
+    background: #00000070;
+}
+
+section{
+    padding: 3rem;
 }
 
 .docHeader{
@@ -130,4 +140,54 @@ nav{
 
 .rightSide ul.socials li:last-child a{
     margin-right: 0;
+}
+
+.aboutTitle{
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 3rem;
+}
+
+.aboutTitle::after{
+    content: '';
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    height: 2px;
+    width: 100px;
+    border-bottom: 4px solid aqua;
+}
+
+.aboutInner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+}
+
+.aboutLeft h2{
+    color: cadetblue;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.aboutLeft p, .aboutRight p{
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 0.8rem;
+}
+
+.aboutRight p span:first-child{
+    display: block;
+    position: relative;
+    float: left;
+    padding-right: 20px;
+    color: cadetblue;
+    width: 100px;
+    font-weight: 700;
+}
+
+.aboutRight p span:nth-child(2){
+    display: inline-block;
 }
