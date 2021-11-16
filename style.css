@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: -webkit-linear-gradient(to right, #44a08d, #093637); 
+    background: linear-gradient(to right, #44a08d, #093637); 
+}
+
+nav{
+    background: #0d4b4d71;
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+.navInner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+.downloadBtn button{
+    background: #0000008f;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.downloadBtn button:hover{
+    cursor: pointer;
+    background: #000000;
+}
+
+.docHeader{
+    background: #0000008f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+    margin-top: 60px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 25% 100%, 0 80%);
+}
+
+.leftSide{
+    display: flex;
+    align-items: center;
+}
+
+.leftSide h2{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.imageBox{
+    margin-right: 20px;
+}
+
+.imageBox img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+.leftSide span{
+    color: aqua;
+    font-style: italic;
+}
+
+.rightSide ul.contactsList{
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.rightSide ul.contactsList li{
+    color: #ffffff;
+    margin-bottom: 0.8rem;
+    font-size: 14px;
+}
+
+.rightSide ul.contactsList li i{
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.phone, .email{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.phone:hover, .email:hover{
+    color: aqua;
+    transition: linear 0.2s;
+}
+
+.rightSide ul.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.rightSide ul.socials li a{
+    display: block;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.rightSide ul.socials li a:hover{
+    color: aqua;
+    transform: scale(1.2);
+    transition: linear 0.1s;
+}
+
+.rightSide ul.socials li:last-child a{
+    margin-right: 0;
+}
