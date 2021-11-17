@@ -37,6 +37,7 @@ nav{
 .downloadBtn button{
     background: #0000008f;
     border: none;
+    outline: none;
     border-radius: 5px;
     padding: 0.5rem 1rem;
     color: #ffffff;
