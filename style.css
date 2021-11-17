@@ -54,7 +54,7 @@ main{
 }
 
 section{
-    padding: 3rem;
+    padding: 2.5rem;
 }
 
 .docHeader{
@@ -142,7 +142,7 @@ section{
     margin-right: 0;
 }
 
-.aboutTitle{
+.sectionTitle{
     position: relative;
     font-size: 24px;
     font-weight: 500;
@@ -150,7 +150,7 @@ section{
     margin-bottom: 3rem;
 }
 
-.aboutTitle::after{
+.sectionTitle::after{
     content: '';
     position: absolute;
     top: 2rem;
@@ -190,4 +190,35 @@ section{
 
 .aboutRight p span:nth-child(2){
     display: inline-block;
+}
+
+.skillsInner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.heading{
+    margin-bottom: 0.8rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: cadetblue;
+    text-align: center;
+}
+
+.heading i {
+    font-size: 36px;
+}
+
+.skillsLeft p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.skillsLeft p.center {
+    color: cadetblue;
+}
+
+.timelineItem{
+    margin-bottom: 2rem;
 }
