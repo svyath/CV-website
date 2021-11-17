@@ -9,12 +9,13 @@ body{
     font-family: 'Roboto', sans-serif;
     background: -webkit-linear-gradient(to right, #44a08d, #093637); 
     background: linear-gradient(to right, #44a08d, #093637); 
+    padding-bottom: 4rem;
 }
 
 nav{
     background: #0d4b4d71;
     padding: 10px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #000000c9;
 }
 
 .container{
@@ -279,4 +280,58 @@ section{
     color: cadetblue;
     font-size: 16px;
     font-weight: 700;
+}
+
+.projectsInner{
+    margin: 0 auto;
+}
+
+.tabs ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tabs ul li a{
+    color: cadetblue;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tabs ul li a.active{
+    border: aqua;
+    color:aqua;
+    transition: 0.3s ease-in-out;
+}
+
+.portItem img {
+    display: block;
+    width: 200px;
+    height: 200px;    
+    object-fit: cover;
+}
+
+.portfolioInner{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.techInner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.techInner i {
+    font-size: 72px;
+    color: #ffffff;
+}
+
+footer{
+    background: #000000c9;
+    text-align: center;
+    color: #ffffff;
+    padding: 2rem 0;
 }
