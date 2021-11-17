@@ -1,40 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
-    background: -webkit-linear-gradient(to right, #44a08d, #093637); 
-    background: linear-gradient(to right, #44a08d, #093637); 
+    background: -webkit-linear-gradient(to right, #44a08d, #093637);
+    background: linear-gradient(to right, #44a08d, #093637);
     padding-bottom: 4rem;
 }
 
-nav{
+nav {
     background: #0d4b4d71;
     padding: 10px;
     border-bottom: 1px solid #000000c9;
 }
 
-.container{
+.container {
     margin: 0 auto;
     max-width: 1180px;
 }
 
-.navInner{
+.navInner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     font-size: 1.8rem;
     color: #ffffff;
 }
 
-.downloadBtn button{
+.downloadBtn button {
     background: #0000008f;
     border: none;
     outline: none;
@@ -44,22 +44,22 @@ nav{
     font-size: 1.5rem;
 }
 
-.downloadBtn button:hover{
+.downloadBtn button:hover {
     cursor: pointer;
     background: #000000;
     color: aqua;
     transition: linear 0.2s;
 }
 
-main{
+main {
     background: #00000070;
 }
 
-section{
+section {
     padding: 2.5rem;
 }
 
-.docHeader{
+.docHeader {
     background: #0000008f;
     display: flex;
     align-items: center;
@@ -69,82 +69,84 @@ section{
     clip-path: polygon(0 0, 100% 0, 100% 80%, 25% 100%, 0 80%);
 }
 
-.leftSide{
+.leftSide {
     display: flex;
     align-items: center;
 }
 
-.leftSide h2{
+.leftSide h2 {
     color: #ffffff;
     font-size: 2rem;
     font-weight: 500;
 }
 
-.imageBox{
+.imageBox {
     margin-right: 20px;
 }
 
-.imageBox img{
+.imageBox img {
     width: 128px;
     height: 128px;
     border-radius: 50%;
 }
 
-.leftSide span{
+.leftSide span {
     color: aqua;
     font-style: italic;
 }
 
-.rightSide ul.contactsList{
+.rightSide ul.contactsList {
     list-style: none;
     margin-bottom: 1.5rem;
 }
 
-.rightSide ul.contactsList li{
+.rightSide ul.contactsList li {
     color: #ffffff;
     margin-bottom: 0.8rem;
     font-size: 14px;
 }
 
-.rightSide ul.contactsList li i{
+.rightSide ul.contactsList li i {
     font-size: 18px;
     padding-right: 10px;
 }
 
-.phone, .email{
+.phone,
+.email {
     text-decoration: none;
     color: #ffffff;
 }
 
-.phone:hover, .email:hover{
+.phone:hover,
+.email:hover {
     color: aqua;
     transition: linear 0.2s;
 }
 
-.rightSide ul.socials{
+.rightSide ul.socials {
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-.rightSide ul.socials li a{
+.rightSide ul.socials li a {
     display: block;
     color: #ffffff;
     font-size: 2rem;
     margin-right: 20px;
 }
 
-.rightSide ul.socials li a:hover{
+.rightSide ul.socials li a:hover {
     color: aqua;
     transform: scale(1.2);
     transition: linear 0.1s;
 }
 
-.rightSide ul.socials li:last-child a{
+.rightSide ul.socials li:last-child a {
     margin-right: 0;
 }
 
-.sectionTitle{
+.sectionTitle {
     position: relative;
     font-size: 24px;
     font-weight: 500;
@@ -152,7 +154,7 @@ section{
     margin-bottom: 3rem;
 }
 
-.sectionTitle::after{
+.sectionTitle::after {
     content: '';
     position: absolute;
     top: 2rem;
@@ -162,25 +164,26 @@ section{
     border-bottom: 4px solid aqua;
 }
 
-.aboutInner{
+.aboutInner {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10rem;
 }
 
-.aboutLeft h2{
+.aboutLeft h2 {
     color: cadetblue;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 
-.aboutLeft p, .aboutRight p{
+.aboutLeft p,
+.aboutRight p {
     color: #ffffff;
     font-size: 16px;
     margin-bottom: 0.8rem;
 }
 
-.aboutRight p span:first-child{
+.aboutRight p span:first-child {
     display: block;
     position: relative;
     float: left;
@@ -190,17 +193,17 @@ section{
     font-weight: 700;
 }
 
-.aboutRight p span:nth-child(2){
+.aboutRight p span:nth-child(2) {
     display: inline-block;
 }
 
-.skillsInner{
+.skillsInner {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
-.heading{
+.heading {
     margin-bottom: 0.8rem;
     font-size: 20px;
     font-weight: 600;
@@ -221,17 +224,17 @@ section{
     color: cadetblue;
 }
 
-.timeline{
+.timeline {
     border-left: 4px dotted cadetblue;
 }
 
-.timelineItem{
+.timelineItem {
     position: relative;
     margin-bottom: 2rem;
     margin-left: 20px;
 }
 
-.timelineItem::after{
+.timelineItem::after {
     content: '';
     position: absolute;
     top: 5px;
@@ -243,11 +246,11 @@ section{
     margin-left: -29px;
 }
 
-.skillItem{
+.skillItem {
     margin-bottom: 2rem;
 }
 
-.skillItem h4{
+.skillItem h4 {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 600;
@@ -255,7 +258,7 @@ section{
     margin-bottom: 1rem;
 }
 
-.progressbarWrapper{
+.progressbarWrapper {
     background: rgba(127, 255, 212, 0.555);
     height: 8px;
     width: 100%;
@@ -264,7 +267,7 @@ section{
     border-radius: 10px;
 }
 
-.progressbar{
+.progressbar {
     position: relative;
     display: block;
     height: 100%;
@@ -273,7 +276,7 @@ section{
     transition: linear 1.5s;
 }
 
-.scale{
+.scale {
     position: absolute;
     top: -35px;
     right: -20px;
@@ -283,7 +286,7 @@ section{
     font-weight: 700;
 }
 
-.projectsInner{
+.projectsInner {
     margin: 0 auto;
 }
 
@@ -293,33 +296,33 @@ section{
     justify-content: space-evenly;
 }
 
-.tabs ul li a{
+.tabs ul li a {
     color: cadetblue;
     padding: 10px 15px;
     font-size: 18px;
     font-weight: 600;
 }
 
-.tabs ul li a.active{
+.tabs ul li a.active {
     border: aqua;
-    color:aqua;
+    color: aqua;
     transition: 0.3s ease-in-out;
 }
 
 .portItem img {
     display: block;
     width: 200px;
-    height: 200px;    
+    height: 200px;
     object-fit: cover;
 }
 
-.portfolioInner{
+.portfolioInner {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.techInner{
+.techInner {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -330,9 +333,74 @@ section{
     color: #ffffff;
 }
 
-footer{
+footer {
     background: #000000c9;
     text-align: center;
     color: #ffffff;
     padding: 2rem 0;
+}
+
+/*Media queries*/
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .docHeader {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .docHeader .leftSide {
+        margin-bottom: 2rem;
+    }
+
+    .docHeader .rightSide {
+        align-self: center;
+    }
+
+    .skillsInner {
+        display: block;
+    }
+
+    .skillsLeft {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 810px) {
+    .aboutInner {
+        display: block;
+    }
+
+    .aboutLeft {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 475px) {
+
+    .techInner i {
+        font-size: 48px;
+    }
+
+    .imageBox img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .leftSide h2 {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .downloadBtn button {
+        font-size: 1.2rem;
+    }
 }
