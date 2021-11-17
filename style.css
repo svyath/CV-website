@@ -219,6 +219,63 @@ section{
     color: cadetblue;
 }
 
+.timeline{
+    border-left: 4px dotted cadetblue;
+}
+
 .timelineItem{
+    position: relative;
     margin-bottom: 2rem;
+    margin-left: 20px;
+}
+
+.timelineItem::after{
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    margin-left: -29px;
+}
+
+.skillItem{
+    margin-bottom: 2rem;
+}
+
+.skillItem h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: cadetblue;
+    margin-bottom: 1rem;
+}
+
+.progressbarWrapper{
+    background: rgba(127, 255, 212, 0.555);
+    height: 8px;
+    width: 100%;
+    box-shadow: 0 0 2px 1px aqua;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.progressbar{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 0;
+    background: aqua;
+}
+
+.scale{
+    position: absolute;
+    top: -35px;
+    right: -20px;
+    margin-bottom: 10px;
+    color: cadetblue;
+    font-size: 16px;
+    font-weight: 700;
 }
